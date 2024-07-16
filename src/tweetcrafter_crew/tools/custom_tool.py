@@ -1,12 +1,32 @@
 from crewai_tools import BaseTool
+from src.tweetcrafter_crew.config import Config
 
 
-class MyCustomTool(BaseTool):
-    name: str = "Name of my tool"
+class save_tweet(BaseTool):
+    name: str = "save_tweet tool"
     description: str = (
-        "Clear description for what this tool is useful for, you agent will need this information to use it."
+        "Save a tweet text to a markdown file."
     )
 
-    def _run(self, argument: str) -> str:
-        # Implementation goes here
-        return "this is an example of a tool output, ignore it and move along."
+    def _run(self, text: str):
+        
+        file_path = Config.Path.OUTPUT_DIR / "tweet.md"
+        with file_path.open("w") as file:
+            file.write(text)
+
+        return file_path
+    
+
+class read_tweets(BaseTool):
+    name: str = "read_tweets tool"
+    description: str = (
+        "Read all tweets from a markdown file."
+    )
+
+    def _run(self) -> str:
+        
+        file_path = Config.Path.DATA_DIR / "tweets.md"
+        with file_path.open("r") as file:
+            tweets = file.read()
+
+        return tweets
