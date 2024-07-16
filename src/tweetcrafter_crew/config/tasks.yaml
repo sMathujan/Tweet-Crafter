@@ -1,15 +1,29 @@
-research_task:
+scrape_content_task:
   description: >
-    Conduct a thorough research about {topic}
-    Make sure you find any interesting and relevant information given
-    the current year is 2024.
+    Scrape the text from the provided urls {urls}.
   expected_output: >
-    A list with 10 bullet points of the most relevant information about {topic}
+    List of the scraped text from the urls.
 
-reporting_task:
+
+research_content_task:
   description: >
-    Review the context you got and expand each topic into a full section for a report.
-    Make sure the report is detailed and contains any and all relevant information.
+    Use the scraped content to write a research report on the topic {topic}.
   expected_output: >
-    A fully fledge reports with the mains topics, each with a full section of information.
-    Formated as markdown with out '```'
+    Report with well-structured and accurate content on the topic.
+
+
+write_tweet_task:
+  description: >
+    Write the tweet based on the research report and writing style based of the tweets.
+    Highlight the main technical details in a bullet list that is engaging and easy to understand.
+    Use upto 240 characters. Include relevant hashtags and emojis.
+  expected_output: >
+    Text of the tweet.
+
+
+edit_task:
+  description: >
+    Create 3 different versions of the tweet based on your critique, the original research report,
+    and the suggestion {suggestion}. Sav the original tweet and 3 versions of the tweet.
+  expected_output: >
+    Saved original tweet and 3 versions of the tweet into a text file.
