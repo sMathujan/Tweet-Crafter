@@ -1,11 +1,14 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
+from src.tweetcrafter_crew.tools.custom_tool import read_tweets, save_tweet
+from crewai_tools import ScrapeWebsiteTool
+from src.tweetcrafter_crew.config import Config
+from langchain_groq import ChatGroq
 
-# Uncomment the following line to use an example of a custom tool
-# from tweetcrafter_crew.tools.custom_tool import MyCustomTool
 
-# Check our tools documentations for more information on how to use them
-# from crewai_tools import SerperDevTool
+Config.Path.LOGS_DIR.mkdir(exist_ok=True, parents=True)
+Config.Path.OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
+
 
 @CrewBase
 class TweetcrafterCrewCrew():
@@ -13,35 +16,84 @@ class TweetcrafterCrewCrew():
 	agents_config = 'config/agents.yaml'
 	tasks_config = 'config/tasks.yaml'
 
-	@agent
-	def researcher(self) -> Agent:
-		return Agent(
-			config=self.agents_config['researcher'],
-			# tools=[MyCustomTool()], # Example of custom tool, loaded on the beginning of file
-			verbose=True
-		)
 
+	def llm(self):
+		# llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=os.getenv("GOOGLE_API_KEY"))
+		# llm = ChatGroq(model="mixtral-8x7b-32768")
+		# llm = ChatAnthropic(model_name="claude-3-sonnet-20240229", max_tokens=4096)
+		llm = ChatGroq(model="llama3-70b-8192", groq_api_key="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")
+        
+		return llm
+
+	
 	@agent
-	def reporting_analyst(self) -> Agent:
+	def scraper_agent(self) -> Agent:
 		return Agent(
-			config=self.agents_config['reporting_analyst'],
-			verbose=True
+			config=self.agents_config['scraper_agent'],
+			tools=[ScrapeWebsiteTool()], 
+			verbose=True,
+			allow_delegation=False,
+			llm=self.llm()
 		)
+	
+	@agent
+	def researcher_agent(self) -> Agent:
+		return Agent(
+			config=self.agents_config['researcher_agent'],
+			verbose=True,
+			allow_delegation=False,
+			llm=self.llm()
+		)
+	
+	@agent
+	def writer_agent(self) -> Agent:
+		return Agent(
+			config=self.agents_config['writer_agent'],
+			tools=[read_tweets()],
+			verbose=True,
+			allow_delegation=False,
+			llm=self.llm()
+		)
+	
+	@agent
+	def editor_agent(self) -> Agent:
+		return Agent(
+			config=self.agents_config['editor_agent'],
+			tools=[save_tweet()],
+			verbose=True,
+			allow_delegation=False,
+			llm=self.llm()
+		)
+	
 
 	@task
-	def research_task(self) -> Task:
+	def scrape_content_task(self) -> Task:
 		return Task(
-			config=self.tasks_config['research_task'],
-			agent=self.researcher()
+			config=self.tasks_config['scrape_content_task'],
+			agent=self.scraper_agent()
+		)
+	
+	@task
+	def research_content_task(self) -> Task:
+		return Task(
+			config=self.tasks_config['research_content_task'],
+			agent=self.researcher_agent()
+		)
+	
+	@task
+	def write_tweet_task(self) -> Task:
+		return Task(
+			config=self.tasks_config['write_tweet_task'],
+			agent=self.writer_agent()
+		)
+	
+	@task
+	def edit_task(self) -> Task:
+		return Task(
+			config=self.tasks_config['edit_task'],
+			agent=self.editor_agent()
 		)
 
-	@task
-	def reporting_task(self) -> Task:
-		return Task(
-			config=self.tasks_config['reporting_task'],
-			agent=self.reporting_analyst(),
-			output_file='report.md'
-		)
 
 	@crew
 	def crew(self) -> Crew:
@@ -51,5 +103,7 @@ class TweetcrafterCrewCrew():
 			tasks=self.tasks, # Automatically created by the @task decorator
 			process=Process.sequential,
 			verbose=2,
+			memory=False,
+			output_log_file=str(Config.Path.LOGS_DIR / "crew.log")
 			# process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/
 		)

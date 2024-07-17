@@ -6,7 +6,11 @@ from tweetcrafter_crew.crew import TweetcrafterCrewCrew
 def run():
     # Replace with your inputs, it will automatically interpolate any tasks and agents information
     inputs = {
-        'topic': 'AI LLMs'
+        'topic': 'Summary of the key new features of Phi-3',
+        'urls': [
+            'https://huggingface.co/microsoft/Phi-3-vision-128k-instruct',
+        ],
+        'suggestion': 'Focus on the performance and how-to use the model.'
     }
     TweetcrafterCrewCrew().crew().kickoff(inputs=inputs)
 
