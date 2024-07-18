@@ -9,6 +9,8 @@ from langchain_groq import ChatGroq
 Config.Path.LOGS_DIR.mkdir(exist_ok=True, parents=True)
 Config.Path.OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 
+scrape_tool = ScrapeWebsiteTool()
+
 
 @CrewBase
 class TweetcrafterCrewCrew():
@@ -30,7 +32,7 @@ class TweetcrafterCrewCrew():
 	def scraper_agent(self) -> Agent:
 		return Agent(
 			config=self.agents_config['scraper_agent'],
-			tools=[ScrapeWebsiteTool()], 
+			tools=[scrape_tool], 
 			verbose=True,
 			allow_delegation=False,
 			llm=self.llm()
