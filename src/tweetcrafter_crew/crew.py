@@ -3,13 +3,18 @@ from crewai.project import CrewBase, agent, crew, task
 from src.tweetcrafter_crew.tools.custom_tool import read_tweets, save_tweet
 from crewai_tools import ScrapeWebsiteTool
 from src.tweetcrafter_crew.config import Config
+from src.tweetcrafter_crew.models import create_model
 from langchain_groq import ChatGroq
+from src.tweetcrafter_crew.callbacks import step_callback, LLMCallbackHandler
 
 
 Config.Path.LOGS_DIR.mkdir(exist_ok=True, parents=True)
 Config.Path.OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
+Config.Path.AGENT_LOGS_DIR.mkdir(exist_ok=True, parents=True)
 
 scrape_tool = ScrapeWebsiteTool()
+
+llm_model = create_model(Config.MODEL)
 
 
 @CrewBase
@@ -19,13 +24,23 @@ class TweetcrafterCrewCrew():
 	tasks_config = 'config/tasks.yaml'
 
 
-	def llm(self):
-		# llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=os.getenv("GOOGLE_API_KEY"))
-		# llm = ChatGroq(model="mixtral-8x7b-32768")
-		# llm = ChatAnthropic(model_name="claude-3-sonnet-20240229", max_tokens=4096)
-		llm = ChatGroq(model="llama3-70b-8192", groq_api_key="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")
+	# def llm(self):
+	# 	callback = LLMCallbackHandler(Config.Path.LOGS_DIR / "prompts.jsonl")
+	# 	# llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=os.getenv("GOOGLE_API_KEY"))
+	# 	# llm = ChatGroq(model="mixtral-8x7b-32768", groq_api_key="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")
+	# 	# llm = ChatAnthropic(model_name="claude-3-sonnet-20240229", max_tokens=4096)
+	# 	llm = ChatGroq(
+	# 		model="llama3-70b-8192", 
+	# 		groq_api_key="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",
+	# 		callbacks=[callback]
+	# 	)
         
-		return llm
+	# 	return llm
+	
+	def tool_use_llm(self):
+		tool_use_llm = ChatGroq(model="llama3-groq-70b-8192-tool-use-preview", groq_api_key="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")
+		
+		return tool_use_llm
 
 	
 	@agent
@@ -35,7 +50,10 @@ class TweetcrafterCrewCrew():
 			tools=[scrape_tool], 
 			verbose=True,
 			allow_delegation=False,
-			llm=self.llm()
+			llm=llm_model,
+			step_callback=lambda response: step_callback(
+				response, "scrape_agent", Config.Path.AGENT_LOGS_DIR / "scraper.jsonl"
+			)
 		)
 	
 	@agent
@@ -44,7 +62,10 @@ class TweetcrafterCrewCrew():
 			config=self.agents_config['researcher_agent'],
 			verbose=True,
 			allow_delegation=False,
-			llm=self.llm()
+			llm=llm_model,
+			step_callback=lambda response: step_callback(
+				response, "research_agent", Config.Path.AGENT_LOGS_DIR / "researcher.jsonl"
+			)
 		)
 	
 	@agent
@@ -54,7 +75,10 @@ class TweetcrafterCrewCrew():
 			tools=[read_tweets()],
 			verbose=True,
 			allow_delegation=False,
-			llm=self.llm()
+			llm=llm_model,
+			step_callback=lambda response: step_callback(
+				response, "writer_agent", Config.Path.AGENT_LOGS_DIR / "writer.jsonl"
+			)
 		)
 	
 	@agent
@@ -64,7 +88,10 @@ class TweetcrafterCrewCrew():
 			tools=[save_tweet()],
 			verbose=True,
 			allow_delegation=False,
-			llm=self.llm()
+			llm=llm_model, 
+			step_callback=lambda response: step_callback(
+				response, "editor_agent", Config.Path.AGENT_LOGS_DIR / "editor.jsonl"
+			)
 		)
 	
 

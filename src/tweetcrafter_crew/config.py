@@ -14,4 +14,15 @@ class Config:
         DATA_DIR = APP_HOME / "data"
         OUTPUT_DIR = APP_HOME / "output"
         LOGS_DIR = APP_HOME / "logs"
-        AGNET_LOGS_DIR = LOGS_DIR / "agents"
+        AGENT_LOGS_DIR = LOGS_DIR / "agents"
+
+    MODEL = Model.LLAMA_3
+
+
+
+
+
+
+
+
+
