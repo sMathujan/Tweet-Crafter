@@ -5806,3 +5806,417 @@ Version 2:
 
 Version 3:
 "Revolutionize your language tasks with Phi-3-Vision-128K-Instruct! 🤖 This powerful multimodal model offers 4.2B parameters and 128K token context length, perfect for zero-shot learning. Explore its capabilities in Azure AI Studio today! 🚀 #AI #MultimodalModel #Phi3"2024-07-22 20:37:55: status=completed
+agent=Senior Website Scraper
+2024-07-22 20:52:43: task=Scrape the text from the provided urls ['https://www.artificialintelligence-news.com/news/meta-joins-apple-withholding-ai-models-eu-users/'].
+2024-07-22 20:52:43: status=started
+agent=Senior Website Scraper
+2024-07-22 20:53:25: task=The scraped text from the provided URL is:
+
+"Meta joins Apple in withholding AI models from EU users
+Menu
+ ARTICLE
+LOG IN
+News
+Categories
+Applications
+Chatbots
+Face Recognition
+Virtual Assistants
+Voice Recognition
+Companies
+Amazon
+Apple
+Google
+Meta (Facebook)
+Microsoft
+NVIDIA
+Deep & Reinforcement Learning
+Enterprise
+Ethics & Society
+Industries
+Energy
+Entertainment & Retail
+Gaming
+Healthcare
+Manufacturing
+Legislation & Government
+Machine Learning
+Privacy
+Research
+Robotics
+Security
+Surveillance
+Events
+Webinars & Resources
+Work With Us
+Publish an article or press release
+Advertise on AI News
+Contact Us
+Subscribe / Login
+More TechForge News
+The Block
+Cloud Tech News
+Developer News
+Edge Computing News
+IoT News
+Marketing Tech News
+Telecoms Tech News
+Upcoming Events
+Meta joins Apple in withholding AI models from EU users
+About the Author
+By Ryan Daws |
+ July 18, 2024
+https://twitter.com/gadget_ry Categories:
+ Artificial Intelligence,
+ Companies,
+ Development,
+ Ethics & Society,
+ Legislation & Government,
+ Meta (Facebook),
+ Ryan Daws is a senior editor at TechForge Media with over a decade of experience in crafting compelling narratives and making complex topics accessible. His articles and interviews with industry leaders have earned him recognition as a key influencer by organisations like Onalytica. Under his leadership, publications have been praised by analyst firms such as Forrester for their excellence and performance. Connect with him on X (@gadget_ry) or Mastodon (@gadgetry@techhub.social)
+Meta has announced it will not be launching its upcoming multimodal AI model in the European Union due to regulatory concerns.
+This decision from Meta comes on the heels of Apple’s similar move to exclude the EU from its Apple Intelligence rollout, signalling a growing trend of tech giants hesitating to introduce advanced AI technologies in the region.
+Meta’s latest multimodal AI model – capable of handling video, audio, images, and text – was set to be released under an open license. However, Meta’s decision will prevent European companies from utilising this technology, potentially putting them at a disadvantage in the global AI race.
+“We will release a multimodal Llama model over the coming months, but not in the EU due to the unpredictable nature of the European regulatory environment,” a Meta spokesperson stated.
+A text-only version of Meta’s Llama 3 model is still expected to launch in the EU.
+Meta’s announcement comes just days after the EU finalised compliance deadlines for its new AI Act. Tech companies operating in the EU will have until August 2026 to comply with rules surrounding copyright, transparency, and specific AI applications like predictive policing.
+The withholding of these advanced AI models from the EU market creates a challenging situation for companies outside the region. Those hoping to provide products and services utilising these models will be unable to offer them in one of the world’s largest economic markets.
+Meta plans to integrate its multimodal AI models into products like the Meta Ray-Ban smart glasses. The company’s EU exclusion will extend to future multimodal AI model releases as well.
+Meta will *not* release the multimodal versions of its AI products and models in the EU because of an unpredictable regulatory environment. This means that EU users of Ray-Ban Meta won't be able to use the image understanding features.It also means that the EU industry will not…— Yann LeCun (@ylecun) July 19, 2024
+As more tech giants potentially follow suit, the EU may face challenges in maintaining its position as a leader in technological innovation while balancing concerns about AI’s societal impacts.
+(Photo by engin akyurt)
+See also: AI could unleash £119 billion in UK productivity
+Want to learn more about AI and big data from industry leaders? Check out AI & Big Data Expo taking place in Amsterdam, California, and London. The comprehensive event is co-located with other leading events including Intelligent Automation Conference, BlockX, Digital Transformation Week, and Cyber Security & Cloud Expo.
+Explore other upcoming enterprise technology events and webinars powered by TechForge here.
+Tags: ai, ai act, apple, artificial intelligence, eu, europe, european union, meta, regulation
+View Comments
+Leave a comment
+Leave a Reply Cancel replyYou must be logged in to post a comment. 
+Join our community
+Create your free account now to access all our premium content and recieve the latest tech news to your inbox.
+SUBSCRIBE NOW
+LATEST ARTICLES 
+How AI is transforming sports betting for better odds
+Artificial Intelligence
+UK hospitals begin live trial of prostate cancer-detecting AI
+Healthcare
+Mistral AI and NVIDIA unveil 12B NeMo model
+Artificial Intelligence
+TSMC forecasts record growth, rejects US joint venture amid AI surge
+Artificial Intelligence
+Over 40% of Japanese firms lack AI adoption plans
+Artificial Intelligence
+Other NewsArtificial Intelligence News
+Blockchain News
+Cloud Computing News
+Developer News
+IoT News
+Telecoms News
+Edge Computing News
+View all TechForge Publications
+Cookie Policy (UK)
+EventsBlockchain & AI Expo
+AI & Big Data Expo
+#DMWF Digital Marketing World Forum
+Developer Events
+IoT Events
+Marketing Events
+Telecoms Events
+CategoriesDeep & Reinforcement LearningMachine LearningRoboticsVoice Recognition 
+AI News provides artificial intelligence news and jobs, industry analysis and digital media insight around numerous marketing disciplines; mobile strategy, email marketing, SEO, analytics, social media and much more.
+Please follow this link for our privacy policy.
+Copyright © 2024 AI News. All Rights
+ Reserved.
+LoginUsername(Required) Password(Required) 
+Remember Me
+Forgot Password 
+Not subscribed / a member yet?
+REGISTER HERE TO SUBSCRIBE NOW
+Register
+"*" indicates required fields
+Personal DetailsFirst Names* Last Name* Interests*AIBig DataBlockchainCloudCyber SecurityData CentresDevOpsDigital TransformationEdge ComputingEnterpriseFutureworksHigh Performance ComputingIoTMarketing TechQuantum ComputingVR/AR/XRCountry*United KingdomUnited StatesAfghanistanAlbaniaAlgeriaAmerican SamoaAndorraAngolaAnguillaAntarcticaAntigua and BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBonaire, Sint Eustatius and SabaBosnia and HerzegovinaBotswanaBouvet IslandBrazilBritish Indian Ocean TerritoryBrunei DarussalamBulgariaBurkina FasoBurundiCambodiaCameroonCanadaCape VerdeCayman IslandsCentral African RepublicChadChileChinaChristmas IslandCocos IslandsColombiaComorosCongo, Democratic Republic of theCongo, Republic of theCook IslandsCosta RicaCroatiaCubaCuraçaoCyprusCzech RepublicCôte d'IvoireDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEswatini (Swaziland)EthiopiaFalkland IslandsFaroe IslandsFijiFinlandFranceFrench GuianaFrench PolynesiaFrench Southern TerritoriesGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea-BissauGuyanaHaitiHeard and McDonald IslandsHoly SeeHondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKuwaitKyrgyzstanLao People's Democratic RepublicLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacauMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMartiniqueMauritaniaMauritiusMayotteMexicoMicronesiaMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNew CaledoniaNew ZealandNicaraguaNigerNigeriaNiueNorfolk IslandNorth KoreaNorthern Mariana IslandsNorwayOmanPakistanPalauPalestine, State ofPanamaPapua New GuineaParaguayPeruPhilippinesPitcairnPolandPortugalPuerto RicoQatarRomaniaRussiaRwandaRéunionSaint BarthélemySaint HelenaSaint Kitts and NevisSaint LuciaSaint MartinSaint Pierre and MiquelonSaint Vincent and the GrenadinesSamoaSan MarinoSao Tome and PrincipeSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSint MaartenSlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSouth GeorgiaSouth KoreaSouth SudanSpainSri LankaSudanSurinameSvalbard and Jan Mayen IslandsSwedenSwitzerlandSyriaTaiwanTajikistanTanzaniaThailandTimor-LesteTogoTokelauTongaTrinidad and TobagoTunisiaTurkeyTurkmenistanTurks and Caicos IslandsTuvaluUS Minor Outlying IslandsUgandaUkraineUnited Arab EmiratesUruguayUzbekistanVanuatuVenezuelaVietnamVirgin Islands, BritishVirgin Islands, U.S.Wallis and FutunaWestern SaharaYemenZambiaZimbabweÅland IslandsRegion*RegionAsia-PacificCentral & South AmericaEuropeMiddle East & AfricaNorth AmericaCompany DetailsCompany Name* Job Title* Job Type*Job TypeFounder / PartnerCxODirectorVPSenior ManagerManagerDeveloperOtherPhone*Company Type*Company TypeConsultancy / Advisor / ResearchEnterprise / SMEInvestor / VCPress / MediaPublic SectorService ProviderStart-upSystem IntegratorTechnology Solution ProviderIndustry*Select IndustryAutomotive / Transport / LogisticsBuilt Environment (Inc Real Estate, Construction, Facilities and Cities)Business Functions (Inc Marketing, HR)Communications (Inc Telcos, 5G)Consultancy / Advisor / ResearchConsumer Goods / RetailFinancial services (Inc Banking, Insurance)Healthcare (Inc Pharma)IT ServicesManufacturing / Supply ChainMedia / PR (Inc Government, NfP, Education, Defence)Platforms (inc Software, Hardware, Web, Cloud)Public Sector (Inc Government, NfP, Education, Defence)Regulation / Compliance / LawUtilities / EnergyAccount DetailsEmail*
+Username* This must be a combination of letters and numbersPassword*
+Enter Password
+Confirm Password
+Consent* I agree to the privacy policy.*By submitting this form, I acknowledge that I have read and understood the Privacy Policy and subscribe to receive communications from TechForge Media Ltd.
+View privacy policyCAPTCHASites - hidden - records where signed upAIBlockchainCloudDeveloperEdgeEnterpriseIoTMarketingTelecomsVRStep 1 of 3
+BACK
+NEXT
+EmailThis field is for validation purposes and should be left unchanged.
+Already a member / subscriber?
+LOGIN HERE
+×
+Manage Cookie Consent
+We use technologies like cookies to store and/or access device information. We do this to improve browsing experience and to show personalized ads. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.
+Functional
+Functional
+								Always active							
+The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.
+Preferences
+Preferences
+The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.
+Statistics
+Statistics
+The technical storage or access that is used exclusively for statistical purposes.
+The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.
+Marketing
+Marketing
+The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.
+Manage options
+Manage services
+Manage {vendor_count} vendors
+Read more about these purposes
+Accept
+Deny
+View preferences
+Save preferences
+View preferences
+{title}
+{title}
+{title}
+Manage consent"2024-07-22 20:53:25: status=completed
+agent=Senior Technical Researcher
+2024-07-22 20:53:25: task=Use the scraped content to write a research report on the topic Summary of the key points about Meta joins Apple in withholding AI models from EU users.
+2024-07-22 20:53:25: status=started
+agent=Senior Technical Researcher
+2024-07-22 20:54:02: task=**Research Report: Summary of Key Points about Meta Joining Apple in Withholding AI Models from EU Users**
+
+**Introduction**
+
+Tech giants Meta and Apple have recently announced their decision to withhold advanced Artificial Intelligence (AI) models from the European Union (EU) due to regulatory concerns. This move has significant implications for the EU's position in technological innovation and its ability to balance concerns about AI's societal impacts.
+
+**Meta's Decision**
+
+Meta has stated that it will not launch its upcoming multimodal AI model in the EU due to the unpredictable nature of the European regulatory environment. This decision means that European companies will not be able to utilize this technology, potentially putting them at a disadvantage in the global AI race. A text-only version of Meta's Llama 3 model is still expected to launch in the EU.
+
+**Implications**
+
+The withholding of advanced AI models from the EU market creates a challenging situation for companies outside the region. Those hoping to provide products and services utilizing these models will be unable to offer them in one of the world's largest economic markets. This could lead to a brain drain, as European companies may need to relocate to access these technologies.
+
+**Regulatory Environment**
+
+The EU has recently finalized compliance deadlines for its new AI Act, which sets rules surrounding copyright, transparency, and specific AI applications like predictive policing. Tech companies operating in the EU will have until August 2026 to comply with these rules. However, the regulatory environment remains unpredictable, leading to uncertainty for tech companies.
+
+**Industry Impact**
+
+The decision by Meta and Apple to withhold AI models from the EU may lead to a growing trend of tech giants hesitating to introduce advanced AI technologies in the region. This could have significant implications for the EU's position in technological innovation and its ability to balance concerns about AI's societal impacts.
+
+**Conclusion**
+
+The decision by Meta and Apple to withhold AI models from the EU is a significant development in the tech industry. The implications of this move are far-reaching, and the EU must balance its regulatory environment with the need to attract and retain tech companies. As the tech industry continues to evolve, it is essential to monitor the impact of this decision and its implications for the EU's position in technological innovation.
+
+**Recommendations**
+
+1. The EU should work to create a more predictable regulatory environment to attract and retain tech companies.
+2. Tech companies should engage in open dialogue with regulators to ensure that AI models are developed and deployed in a responsible and ethical manner.
+3. The EU should invest in developing its own AI capabilities to reduce reliance on foreign tech companies.
+
+By understanding the implications of this decision, we can work towards creating a more balanced and innovative tech industry that benefits both the EU and the global community.2024-07-22 20:54:02: status=completed
+agent=Senior Social Media Writer
+2024-07-22 20:54:02: task=Write the tweet based on the research report and writing style based of the tweets. Highlight the main technical details in a bullet list that is engaging and easy to understand. Use upto 240 characters. Include relevant hashtags and emojis.
+2024-07-22 20:54:02: status=started
+agent=Senior Social Media Writer
+2024-07-22 20:54:26: task="💡 Meta & Apple withhold AI models from EU due to regulatory concerns! 🤖️ Key implications: 
+• EU companies may fall behind in AI race
+• Brain drain possible as companies relocate
+• EU must balance regulation with innovation 🚀 #AI #MachineLearning #EUtech"2024-07-22 20:54:26: status=completed
+agent=Senior Tweet Editor
+2024-07-22 20:54:26: task=Create 3 different versions of the tweet based on your critique, the original research report, and the suggestion Focus on the summary and impact of the news.. Sav the original tweet and 3 versions of the tweet.
+2024-07-22 20:54:26: status=started
+agent=Senior Tweet Editor
+2024-07-22 20:54:48: task=```
+Original Tweet:
+💡 Meta & Apple withhold AI models from EU due to regulatory concerns! 🤖️ Key implications: 
+• EU companies may fall behind in AI race
+• Brain drain possible as companies relocate
+• EU must balance regulation with innovation 🚀 #AI #MachineLearning #EUtech
+
+Version 1:
+🚨 EU AI development at risk! 🤖️ Meta & Apple withholding models due to regulatory concerns. 
+• EU companies may lose ground in AI race
+• Talent drain possible as companies relocate
+• Balance needed between regulation and innovation 💡 #AI #EUtech
+
+Version 2:
+🔒 EU's AI future uncertain! 🤖️ Meta & Apple restrict access to models due to regulatory fears. 
+• EU companies may struggle to keep up in AI development
+• Brain drain threat as companies consider relocation
+• EU must find balance between regulation and innovation 🚀 #AI #MachineLearning
+
+Version 3:
+🇪️ EU's AI ambitions hindered! 🤖️ Meta & Apple withhold models due to regulatory concerns. 
+• EU companies risk falling behind in AI race
+• Talent relocation possible as companies seek friendlier regulations
+• EU must balance innovation with regulation 💡 #AI #EUtech
+```2024-07-22 20:54:48: status=completed
+agent=Senior Website Scraper
+2024-07-22 21:10:08: task=Scrape the text from the provided urls ['https://nationaltechnology.co.uk/Meta_Witholds_Advanced_AI_Model_From_EU.php#:~:text=Meta%20withholds%20advanced%20AI%20model%20from%20EU%20amid%20regulatory%20uncertainty,-By%20Jonathan%20Easton&text=Meta%2C%20the%20parent%20company%20of,an%20%22unpredictable%22%20regulatory%20environment.'].
+2024-07-22 21:10:08: status=started
+agent=Senior Website Scraper
+2024-07-22 21:10:19: task=Here is the scraped text from the provided URL:
+
+"Meta withholds advanced AI model from EU amid regulatory uncertainty - National Technology
+Established 2016
+Home
+About 
+Sign Up 
+Contact
+Events
+Videos
+Roundtables
+Podcasts
+News Archive
+Features
+Whitepapers
+Digital Archive
+Home
+About 
+Sign Up 
+Contact
+Events
+Videos
+Roundtables
+Podcasts
+News Archive
+Features
+Whitepapers
+Digital Archive
+National Technology Awards
+Retail Systems 
+FStech
+Latest News
+ Oracle agrees to $115m settlement in privacy lawsuit
+ UK government invests over £100m in green aerospace tech
+ WazirX pauses trading after $230m cyber-attack loss
+ Ocado to supply automation across Kroger's warehouse network
+ Microsoft global IT outage impacts banks, airlines and businesses
+ Amazon tackles fake reviews with joint lawsuit
+						Meta withholds advanced AI model from EU amid regulatory uncertainty
+ By Jonathan Easton
+ 19/07/2024
+Meta, the parent company of Facebook and Instagram, has announced it will not release its upcoming multimodal artificial intelligence (AI) model in the European Union due to what it calls an "unpredictable" regulatory environment.
+The US tech giant plans to launch the advanced AI model, capable of processing text, images, audio, and video, in the coming months. However, European customers and companies will be unable to access or utilise the technology.
+"We will release a multimodal Llama model over the coming months, but not in the EU due to the unpredictable nature of the European regulatory environment," a Meta spokesperson told Axios.
+The decision highlights growing tensions between American tech firms and EU regulators. Last month, Apple made a similar move, withholding its Apple Intelligence features from Europe over regulatory concerns.
+Meta's primary issue stems from difficulties in training AI models using European user data while complying with the General Data Protection Regulation (GDPR). In June, the company was ordered to pause AI training on EU data after announcing plans to use public posts from Facebook and Instagram users.
+The Irish Data Protection Commission, Meta's lead privacy regulator in Europe, said discussions with the company over model training were ongoing.
+Despite nearly identical data protection laws, Meta plans to launch the new model for UK users, citing less regulatory uncertainty in Britain.
+The withholding of the multimodal AI model could have far-reaching implications for European businesses and consumers. Companies outside the EU may be prevented from offering products and services in Europe that utilise the new technology.
+Meta argues that training on European data is crucial for ensuring its products accurately reflect regional terminology and culture. The company claims competitors such as Google and OpenAI are already training on European data.
+While the multimodal model will be withheld, Meta still plans to release a larger, text-only version of its Llama 3 model in the EU.
+The move underscores the ongoing struggle between innovation and regulation in the rapidly evolving field of AI, with European users potentially missing out on cutting-edge technologies as a result.
+Share Story:
+Recent Stories
+Samsung to acquire British AI startup Oxford Semantic
+ READ STORY 
+Meta withholds advanced AI model from EU amid regulatory uncertainty
+ READ STORY 
+Accenture acquires Logic to bolster retail tech arm
+ READ STORY 
+Bringing Teams to the table – Adding value by integrating Microsoft Teams with business applicationsYour browser does not support HTML5 video.A decade ago, the idea of digital collaboration started and ended with sending documents over email. Some organisations would have portals for sharing content or simplistic IM apps, but the ways that we communicated online were still largely primitive.
+Popular
+Recent
+1
+ Microsoft global IT outage impacts banks, airlines and businesses 
+2
+ Carrefour to roll out solar power across 350 French stores 
+3
+ Oracle agrees to $115m settlement in privacy lawsuit
+4
+ Samsung to acquire British AI startup Oxford Semantic
+5
+ UK financial authorities to examine 'seismic shift' in digital payments
+6
+ Tech industry responds to ‘missing’ AI Bill in King’s Speech
+7
+ Meta withholds advanced AI model from EU amid regulatory uncertainty
+8
+ Starling founder stepping down from board to 'create AI company'
+9
+ TikTok owner loses appeal over Digital Markets Act 
+10
+ FTC seeks details on Amazon's deal with AI startup Adept
+1
+UK government invests over £100m in green aerospace tech 
+2
+Ocado to supply automation across Kroger's warehouse network
+3
+WazirX pauses trading after $230m cyber-attack loss 
+4
+Oracle agrees to $115m settlement in privacy lawsuit
+5
+USPS ‘shared customer postal addresses’ with Meta, LinkedIn and Snap 
+6
+Amazon tackles fake reviews with joint lawsuit
+7
+Microsoft global IT outage impacts banks, airlines and businesses 
+8
+Meta withholds advanced AI model from EU amid regulatory uncertainty
+9
+Meta suspends use of gen AI tools in Brazil 
+10
+Australian police union calls for ‘one-stop portal’ for victims of AI deepfakes
+Automating CX: How are businesses using AI to meet customer expectations? Your browser does not support HTML5 video.Virtual agents are set to supplant the traditional chatbot and their use cases are evolving at pace, with many organisations deploying new AI technologies to meet rising customer demand for self-service and real-time interactions.
+Expert Views
+1
+The Sustainable Data Center: Getting More Done, and Leaving Less Behind
+2
+Get ahead in the cloud with Daisy: 7 benefits of Microsoft Azure
+3
+Bright Data acquires Market Beyond to add digital shelf analytics to its data offerings
+4
+Research reveals use of web content tools is expected to grow as internet restrictions continue to tighten
+5
+Influencing the social web space with public data
+		We use cookies to ensure you get the best experience on our website. Learn More
+			Accept
+ © 2019 Perspective Publishing Privacy & Cookies"2024-07-22 21:10:19: status=completed
+agent=Senior Technical Researcher
+2024-07-22 21:10:19: task=Use the scraped content to write a research report on the topic Summary of the key points about Meta withholds advanced AI model from EU amid regulatory uncertainty.
+2024-07-22 21:10:19: status=started
+agent=Senior Technical Researcher
+2024-07-22 21:10:22: task=**Research Report: Summary of Key Points about Meta Withholding Advanced AI Model from EU amid Regulatory Uncertainty**
+
+**Introduction**
+
+Meta, the parent company of Facebook and Instagram, has announced its decision to withhold its upcoming multimodal artificial intelligence (AI) model from the European Union due to regulatory uncertainty. This move highlights the growing tensions between American tech firms and EU regulators, and has significant implications for European businesses and consumers.
+
+**Reasons for Withholding the AI Model**
+
+Meta's primary concern stems from difficulties in training AI models using European user data while complying with the General Data Protection Regulation (GDPR). The company was ordered to pause AI training on EU data in June after announcing plans to use public posts from Facebook and Instagram users. The Irish Data Protection Commission, Meta's lead privacy regulator in Europe, is still in discussions with the company over model training.
+
+**Implications of the Decision**
+
+The withholding of the multimodal AI model could have far-reaching implications for European businesses and consumers. Companies outside the EU may be prevented from offering products and services in Europe that utilize the new technology. Meta argues that training on European data is crucial for ensuring its products accurately reflect regional terminology and culture. The company claims competitors such as Google and OpenAI are already training on European data.
+
+**Comparison with the UK**
+
+Despite the regulatory uncertainty in the EU, Meta plans to launch the new model for UK users, citing less regulatory uncertainty in Britain. This decision underscores the differences in regulatory environments between the EU and the UK.
+
+**Alternative Plans**
+
+While the multimodal model will be withheld, Meta still plans to release a larger, text-only version of its Llama 3 model in the EU. This decision may not fully address the concerns of European businesses and consumers, but it is a step towards providing some access to advanced AI technology.
+
+**Conclusion**
+
+The decision by Meta to withhold its advanced AI model from the EU highlights the ongoing struggle between innovation and regulation in the rapidly evolving field of AI. European users may potentially miss out on cutting-edge technologies as a result of this decision. The implications of this move will be closely watched, and it remains to be seen how EU regulators will respond to this development.2024-07-22 21:10:22: status=completed
+agent=Senior Social Media Writer
+2024-07-22 21:10:22: task=Write the tweet based on the research report and writing style based of the tweets. Highlight the main technical details in a bullet list that is engaging and easy to understand. Use upto 240 characters. Include relevant hashtags and emojis.
+2024-07-22 21:10:22: status=started
+agent=Senior Social Media Writer
+2024-07-22 21:10:40: task="🚨Breaking: Meta withholds advanced AI model from EU due to regulatory uncertainty! 🤖️️️ The multimodal model's future in Europe is uncertain, but a text-only version of Llama 3 will still be released. 📚️ What does this mean for European businesses and consumers? 🤔 #AI #MachineLearning #RegulatoryUncertainty"2024-07-22 21:10:40: status=completed
+agent=Senior Tweet Editor
+2024-07-22 21:10:40: task=Create 3 different versions of the tweet based on your critique, the original research report, and the suggestion Focus on the summary and impact of the news, as well as the innovations and regulations.. Sav the original tweet and 3 versions of the tweet.
+2024-07-22 21:10:40: status=started
+agent=Senior Tweet Editor
+2024-07-22 21:11:16: task=Original Tweet:
+🚨Breaking: Meta withholds advanced AI model from EU due to regulatory uncertainty! 🤖️️️ The multimodal model's future in Europe is uncertain, but a text-only version of Llama 3 will still be released. 📚️ What does this mean for European businesses and consumers? 🤔 #AI #MachineLearning #RegulatoryUncertainty
+
+Version 1:
+🚨Meta puts brakes on EU AI model release due to regulatory uncertainty! 🤖️️️ What does this mean for European businesses and consumers? Will they have to wait for the multimodal model? 📚️ #AI #MachineLearning #Regulation
+
+Version 2:
+🚨Regulatory uncertainty halts Meta's advanced AI model release in EU! 🤖️️️ But a text-only version of Llama 3 is still on its way. What are the implications for European businesses and consumers? 🤔 #AI #MachineLearning #EU
+
+Version 3:
+🚨EU misses out on Meta's cutting-edge AI model due to regulatory uncertainty! 🤖️️️ A text-only version of Llama 3 will be released instead. How will this impact European businesses and consumers? 📊 #AI #MachineLearning #Innovation2024-07-22 21:11:16: status=completed
