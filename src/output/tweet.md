@@ -1,7 +1,11 @@
-Original Tweet: Meet Phi-3 Vision-128K-Instruct! 🚀 A state-of-the-art multimodal model with 4.2B params, processing text & image inputs with a context length of 128K tokens. 📚💻 Trained on 500B vision & text tokens, outperforming others in zero-shot benchmarks! 📈 #AI #MachineLearning #MultimodalModel
+Original Tweet:
+"Meet Phi-3-Vision-128K-Instruct! 🤖 A state-of-the-art multimodal model for English language tasks with visual and text input capabilities. 📚️️️️️ Highlights: • 4.2B parameters • 128K token context length • Outperforms models in zero-shot benchmarks • Available in Azure AI Studio 🚀 #AI #MultimodalModel #Phi3"
 
-Version 1: Unlock the power of Phi-3 Vision-128K-Instruct! 🚀 With 4.2B params and a context length of 128K tokens, this multimodal model processes text & image inputs like a pro! 📚💻 Outperforming others in zero-shot benchmarks, it's a game-changer! 📈 #AI #MachineLearning #MultimodalModel
+Version 1:
+"Unlock the power of Phi-3-Vision-128K-Instruct! 🤖 This multimodal model is a game-changer for English language tasks, with 4.2B parameters and 128K token context length. Try it out in Azure AI Studio today! 🚀 #AI #MultimodalModel #Phi3"
 
-Version 2: Get ready to revolutionize your workflow with Phi-3 Vision-128K-Instruct! 🚀 This state-of-the-art multimodal model boasts 4.2B params and processes text & image inputs with ease. 📚💻 Trained on 500B vision & text tokens, it's the perfect tool for any task! 📈 #AI #MachineLearning #MultimodalModel
+Version 2:
+"Take your language tasks to the next level with Phi-3-Vision-128K-Instruct! 🤖 This state-of-the-art model boasts 4.2B parameters and 128K token context length, outperforming others in zero-shot benchmarks. Get started in Azure AI Studio now! 🚀 #AI #MultimodalModel #Phi3"
 
-Version 3: Take your projects to the next level with Phi-3 Vision-128K-Instruct! 🚀 This powerful multimodal model processes text & image inputs with a context length of 128K tokens, making it perfect for complex tasks. 📚💻 With 4.2B params and zero-shot benchmark outperformance, it's a must-have! 📈 #AI #MachineLearning #MultimodalModel
+Version 3:
+"Revolutionize your language tasks with Phi-3-Vision-128K-Instruct! 🤖 This powerful multimodal model offers 4.2B parameters and 128K token context length, perfect for zero-shot learning. Explore its capabilities in Azure AI Studio today! 🚀 #AI #MultimodalModel #Phi3"

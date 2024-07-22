@@ -8,6 +8,7 @@ authors = ["Your Name <you@example.com>"]
 python = ">=3.10,<=3.13"
 crewai = { extras = ["tools"], version = "^0.36.1" }
 langchain-groq = "^0.1.6"
+agentops = "^0.3.2"
 
 [tool.poetry.scripts]
 tweetcrafter_crew = "tweetcrafter_crew.main:run"

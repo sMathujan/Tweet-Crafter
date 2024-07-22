@@ -6,6 +6,7 @@ from src.tweetcrafter_crew.config import Config
 from src.tweetcrafter_crew.models import create_model
 from langchain_groq import ChatGroq
 from src.tweetcrafter_crew.callbacks import step_callback, LLMCallbackHandler
+import agentops
 
 
 Config.Path.LOGS_DIR.mkdir(exist_ok=True, parents=True)
@@ -15,6 +16,8 @@ Config.Path.AGENT_LOGS_DIR.mkdir(exist_ok=True, parents=True)
 scrape_tool = ScrapeWebsiteTool()
 
 llm_model = create_model(Config.MODEL)
+
+agentops.init()
 
 
 @CrewBase
@@ -43,6 +46,7 @@ class TweetcrafterCrewCrew():
 		return tool_use_llm
 
 	
+	@agentops.track_agent(name='scraper_agent')
 	@agent
 	def scraper_agent(self) -> Agent:
 		return Agent(
@@ -56,6 +60,7 @@ class TweetcrafterCrewCrew():
 			)
 		)
 	
+	@agentops.track_agent(name="research_agent")
 	@agent
 	def researcher_agent(self) -> Agent:
 		return Agent(
@@ -68,6 +73,7 @@ class TweetcrafterCrewCrew():
 			)
 		)
 	
+	@agentops.track_agent(name="writer_agent")
 	@agent
 	def writer_agent(self) -> Agent:
 		return Agent(
@@ -81,6 +87,7 @@ class TweetcrafterCrewCrew():
 			)
 		)
 	
+	@agentops.track_agent(name="editor_agent")
 	@agent
 	def editor_agent(self) -> Agent:
 		return Agent(
