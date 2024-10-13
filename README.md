@@ -1,57 +1,71 @@
-# TweetcrafterCrew Crew
 
-Welcome to the TweetcrafterCrew Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+# Tweet Crafter: AI-Powered Tweet Writing with Multi-Agent System
 
-## Installation
+**Tweet Crafter** is a multi-agent AI system designed to generate high-quality tweets by leveraging the power of autonomous agents. Each agent in the system plays a unique role in the process, collaborating to create insightful, research-backed social media posts.
 
-Ensure you have Python >=3.10 <=3.13 installed on your system. This project uses [Poetry](https://python-poetry.org/) for dependency management and package handling, offering a seamless setup and execution experience.
+## Key AI Agents and Their Roles
 
-First, if you haven't already, install Poetry:
+1. **Website Scraper**: Scrapes relevant content from a set of provided URLs.
+2. **Researcher**: Extracts key insights and information from the scraped content and any additional research sources.
+3. **Social Media Writer**: Crafts a tweet based on the research findings provided by the Researcher.
+4. **Tweet Editor**: Critiques the initial tweet and provides three refined versions of it based on the original research report.
 
-```bash
-pip install poetry
+## How Tweet Crafter Works
+
+The `tweetcrafter_crew` is a group of specialized AI agents, each configured for specific tasks. These tasks are defined in the `config/tasks.yaml` file, while the capabilities and settings of each agent are outlined in `config/agents.yaml`.
+
+### Workflow
+
+1. The **Website Scraper** pulls content from the URLs you provide.
+2. The **Researcher** processes the content, extracting insights.
+3. The **Social Media Writer** takes these insights and creates a tweet.
+4. The **Tweet Editor** refines the tweet, offering three alternative versions for optimization.
+
+## Usage Instructions
+
+1. Open `tweetcrafter_crew/main.py` and configure the input parameters:
+
+    ```python
+    inputs = {
+        "topic": "Many organisations unprepared for AI cybersecurity threats",
+        "urls": [
+            "https://www.artificialintelligence-news.com/news/many-organisations-unprepared-ai-cybersecurity-threats/",
+        ],
+        "suggestion": "",
+    }
+    ```
+
+2. Add sample tweets to analyze their writing style by editing `data/tweets.md`.
+
+3. Run the application:
+
+    ```bash
+    poetry run tweetcrafter_crew
+    ```
+
+## Sample Output
+
+Once the agents have completed their tasks, you will find the resulting tweets saved in `output/tweet.md`.
+
+**Example**:
+
+**Original Tweet**:
+```
+"Did you know? 84% of IT leaders believe AI-enhanced tools have increased phishing & smishing attacks! 🚨💻 To stay ahead, organisations must prioritize AI cybersecurity strategies, including data encryption, employee training, and advanced threat detection. 📊💡 #AICybersecurity #CyberThreats"
 ```
 
-Next, navigate to your project directory and install the dependencies:
+**Edited Versions**:
 
-1. First lock the dependencies and then install them:
-```bash
-poetry lock
-```
-```bash
-poetry install
-```
-### Customizing
+1. "Phishing & smishing attacks on the rise! 🚨 84% of IT leaders believe AI-enhanced tools are to blame. 💻 Stay ahead with AI cybersecurity strategies like data encryption, employee training, and advanced threat detection. 📊💡 #AICybersecurity #CyberThreats"
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+2. "AI-enhanced tools: a double-edged sword? 🤔 84% of IT leaders think they've increased phishing & smishing attacks, but with AI cybersecurity strategies, you can stay one step ahead! 💻 #AICybersecurity #CyberThreats"
 
-- Modify `src/tweetcrafter_crew/config/agents.yaml` to define your agents
-- Modify `src/tweetcrafter_crew/config/tasks.yaml` to define your tasks
-- Modify `src/tweetcrafter_crew/crew.py` to add your own logic, tools and specific args
-- Modify `src/tweetcrafter_crew/main.py` to add custom inputs for your agents and tasks
+3. "The dark side of AI: 84% of IT leaders report increased phishing & smishing attacks due to AI-enhanced tools! 🚨 But don't worry, AI cybersecurity strategies can save the day! 💻 Prioritize data encryption, employee training, and advanced threat detection. 📊💡 #AICybersecurity #CyberThreats"
 
-## Running the Project
+## Logging and Observability
 
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
+All agent prompts and interactions are logged for observability and debugging. You can find individual logs for each agent in the `logs` directory.
 
-```bash
-poetry run tweetcrafter_crew
-```
+## See the Tweets in Action
 
-This command initializes the tweetcrafter-crew Crew, assembling the agents and assigning them tasks as defined in your configuration.
-
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
-
-## Understanding Your Crew
-
-The tweetcrafter-crew Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
-
-## Support
-
-For support, questions, or feedback regarding the TweetcrafterCrew Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
+You can see the tweets composed by this multi-agent system in action on [Mathujan's Twitter/X account](https://x.com/mathujan_s). The system is actively used to craft posts on technology, business growth, and AI. Follow the account to stay updated with AI-powered tweets!
